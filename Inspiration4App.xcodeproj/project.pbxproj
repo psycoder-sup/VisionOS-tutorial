@@ -80,6 +80,7 @@
 		43BBF2682B06559600C9B115 /* Inspiration4App */ = {
 			isa = PBXGroup;
 			children = (
+				43BBF2902B06597B00C9B115 /* Models */,
 				43BBF28F2B06568A00C9B115 /* Areas */,
 				43BBF26D2B06559600C9B115 /* Inspiration4AppApp.swift */,
 				43BBF2732B06559600C9B115 /* ImageBasedLighting.skybox */,
@@ -120,6 +121,13 @@
 				43BBF28D2B06566E00C9B115 /* Areas.swift */,
 			);
 			path = Areas;
+			sourceTree = "<group>";
+		};
+		43BBF2902B06597B00C9B115 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

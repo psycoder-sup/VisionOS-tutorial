@@ -9,10 +9,16 @@ import SwiftUI
 
 @main
 struct Inspiration4AppApp: App {
+    /// Inside of the body we define,
+    /// Immersive, Full space, Shared space, etc.
+    /// Also other proterties
     var body: some Scene {
         WindowGroup {
-            
+            Areas()
         }
+//        .windowStyle(.plain)
+        /// We can control the size
+        .defaultSize(CGSize(width: 200, height: 150))
     }
 
 }

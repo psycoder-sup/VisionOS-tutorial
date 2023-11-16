@@ -14,6 +14,8 @@
 		43BBF2792B06559800C9B115 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BBF2782B06559800C9B115 /* Preview Assets.xcassets */; };
 		43BBF2842B06559800C9B115 /* Inspiration4AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBF2832B06559800C9B115 /* Inspiration4AppTests.swift */; };
 		43BBF28E2B06566E00C9B115 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBF28D2B06566E00C9B115 /* Areas.swift */; };
+		43BBF2922B0659CF00C9B115 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBF2912B0659CF00C9B115 /* Area.swift */; };
+		43BBF2942B065ACC00C9B115 /* Crew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBF2932B065ACC00C9B115 /* Crew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		43BBF27F2B06559800C9B115 /* Inspiration4AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inspiration4AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BBF2832B06559800C9B115 /* Inspiration4AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiration4AppTests.swift; sourceTree = "<group>"; };
 		43BBF28D2B06566E00C9B115 /* Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
+		43BBF2912B0659CF00C9B115 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		43BBF2932B065ACC00C9B115 /* Crew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		43BBF2902B06597B00C9B115 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				43BBF2912B0659CF00C9B115 /* Area.swift */,
+				43BBF2932B065ACC00C9B115 /* Crew.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BBF28E2B06566E00C9B115 /* Areas.swift in Sources */,
+				43BBF2922B0659CF00C9B115 /* Area.swift in Sources */,
+				43BBF2942B065ACC00C9B115 /* Crew.swift in Sources */,
 				43BBF26E2B06559600C9B115 /* Inspiration4AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

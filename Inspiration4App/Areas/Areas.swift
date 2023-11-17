@@ -9,10 +9,14 @@ import SwiftUI
 
 struct Areas: View {
     var body: some View {
-        Text("5Spaces")
+        ZStack {
+            NavigationStack {
+                NavigationToAreas()
+            }
+        }
     }
 }
 
-#Preview {
-    Areas()
-}
+//#Preview {
+//    Areas()
+//}

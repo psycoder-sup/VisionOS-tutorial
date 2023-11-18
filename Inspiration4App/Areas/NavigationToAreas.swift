@@ -22,17 +22,15 @@ struct NavigationToAreas: View {
                         Text(area.title)
                             .monospaced()
                             .font(.system(size:40, weight: .bold))
+                        
                     } label: {
                         Label(area.name, systemImage: "chevron.right")
                             .monospaced()
                             .font(.title)
-                    }
+                    }.controlSize(.extraLarge)
                 }
             }
-            .background()
-            {
-                
-            }
+           
             
 //            NavigationLink {
 //                Text("Hello World 1 Nav 1")
@@ -49,12 +47,13 @@ struct NavigationToAreas: View {
 //            } label : {
 //                Label("Hola 3", systemImage: "chevron.right")
 //            }
-            
-            
+        /// background 위치에 따라서 다르게 보인다.
+        }.background(){
+            Image("Inspiration4")
         }
     }
 }
-
-//#Preview {
-//    NavigationToAreas()
-//}
+//
+#Preview {
+    NavigationToAreas()
+}

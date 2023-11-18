@@ -10,6 +10,7 @@
 		432EF77D2B065C8A00240EA5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EF77C2B065C8A00240EA5 /* ViewModel.swift */; };
 		432EF77F2B073D3C00240EA5 /* NavigationToAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EF77E2B073D3C00240EA5 /* NavigationToAreas.swift */; };
 		4366AA252B0879120020B3B5 /* CrewArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366AA242B0879120020B3B5 /* CrewArea.swift */; };
+		4366AA272B087F840020B3B5 /* EquipmentArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366AA262B087F840020B3B5 /* EquipmentArea.swift */; };
 		43BBF26C2B06559600C9B115 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 43BBF26B2B06559600C9B115 /* RealityKitContent */; };
 		43BBF26E2B06559600C9B115 /* Inspiration4AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBF26D2B06559600C9B115 /* Inspiration4AppApp.swift */; };
 		43BBF2742B06559600C9B115 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 43BBF2732B06559600C9B115 /* ImageBasedLighting.skybox */; };
@@ -35,6 +36,7 @@
 		432EF77C2B065C8A00240EA5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		432EF77E2B073D3C00240EA5 /* NavigationToAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToAreas.swift; sourceTree = "<group>"; };
 		4366AA242B0879120020B3B5 /* CrewArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewArea.swift; sourceTree = "<group>"; };
+		4366AA262B087F840020B3B5 /* EquipmentArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentArea.swift; sourceTree = "<group>"; };
 		43BBF2662B06559600C9B115 /* Inspiration4App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspiration4App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BBF26A2B06559600C9B115 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		43BBF26D2B06559600C9B115 /* Inspiration4AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspiration4AppApp.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				43BBF28D2B06566E00C9B115 /* Areas.swift */,
 				432EF77E2B073D3C00240EA5 /* NavigationToAreas.swift */,
 				4366AA242B0879120020B3B5 /* CrewArea.swift */,
+				4366AA262B087F840020B3B5 /* EquipmentArea.swift */,
 			);
 			path = Areas;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				432EF77D2B065C8A00240EA5 /* ViewModel.swift in Sources */,
 				432EF77F2B073D3C00240EA5 /* NavigationToAreas.swift in Sources */,
+				4366AA272B087F840020B3B5 /* EquipmentArea.swift in Sources */,
 				43BBF28E2B06566E00C9B115 /* Areas.swift in Sources */,
 				4366AA252B0879120020B3B5 /* CrewArea.swift in Sources */,
 				43BBF2922B0659CF00C9B115 /* Area.swift in Sources */,

@@ -16,9 +16,19 @@ struct CrewArea: View {
                         .resizable()
                         .frame(width: 180, height: 200)
                     Text(crew.fullName)
-                        .font(.system(size: 22, weight: .bold))
+                        .font(.system(size: 32, weight: .bold))
+                    Text(crew.about)
+                        .font(.system(size: 20))
                 }
+                .frame(minWidth: 180, minHeight: 200)
+                .padding(15)
+                .glassBackgroundEffect()
             }
         }
     }
+}
+
+
+#Preview {
+    CrewArea()
 }

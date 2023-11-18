@@ -23,6 +23,14 @@ struct NavigationToAreas: View {
                             .monospaced()
                             .font(.system(size:40, weight: .bold))
                         
+                        if area == Area.astronauts {
+                            CrewArea()
+                        } else if area == Area.equipment {
+                            
+                        } else if area  == Area.mission {
+                            
+                        }
+                        
                     } label: {
                         Label(area.name, systemImage: "chevron.right")
                             .monospaced()

@@ -18,7 +18,7 @@ struct Inspiration4AppApp: App {
         }
 //        .windowStyle(.plain)
         /// We can control the size
-        .defaultSize(CGSize(width: 200, height: 150))
+//        .defaultSize(CGSize(width: 200, height: 150))
     }
 
 }

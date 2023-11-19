@@ -12,6 +12,7 @@ struct Inspiration4AppApp: App {
     /// Inside of the body we define,
     /// Immersive, Full space, Shared space, etc.
     /// Also other proterties
+    
     var body: some Scene {
         WindowGroup {
             Areas()

@@ -21,12 +21,44 @@ struct EquipmentArea: View {
         
         HStack {
             VStack{
-                Image("e")
-            }
+                Image("equipment-capsule")
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                    .padding(20)
+                Toggle(model.isShowingRocketCapsule ? "Hide Roket Capsule (volumetric)" : "Show Roket Capsule (voulmetric)", isOn: $model.isShowingRocketCapsule)
+                    .onChange(of: model.isShowingRocketCapsule) { _, isShowing in
+                        if isShowing {
+                            // openWindow volumetric
+                        } else {
+                            // dismissWindow volumetric
+                        }
+                    }
+                    .toggleStyle(.button)
+                    .padding(20)
+            }.glassBackgroundEffect()
+            
+            VStack{
+                Image("equipment-fullrocket")
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                    .padding(20)
+                Toggle(model.isShowingFullRocket ? "Hide Full Rocket (volumetric)" : "Show Full Roket (voulmetric)", isOn: $model.isShowingFullRocket)
+                    .onChange(of: model.isShowingFullRocket) { _, isShowing in
+                        if isShowing {
+                            // openWindow volumetric
+                        } else {
+                            // dismissWindow volumetric
+                        }
+                    }
+                    .toggleStyle(.button)
+                    .padding(20)
+            }.glassBackgroundEffect()
+            
         }
     }
 }
 
 #Preview {
     EquipmentArea()
+        .environment(ViewModel())
 }

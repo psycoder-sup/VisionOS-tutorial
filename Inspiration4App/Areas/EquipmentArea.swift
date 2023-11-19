@@ -28,9 +28,9 @@ struct EquipmentArea: View {
                 Toggle(model.isShowingRocketCapsule ? "Hide Roket Capsule (volumetric)" : "Show Roket Capsule (voulmetric)", isOn: $model.isShowingRocketCapsule)
                     .onChange(of: model.isShowingRocketCapsule) { _, isShowing in
                         if isShowing {
-                            // openWindow volumetric
+                            openWindow(id: model.capsuleRealityAreaId)
                         } else {
-                            // dismissWindow volumetric
+                            dismissWindow(id: model.capsuleRealityAreaId)
                         }
                     }
                     .toggleStyle(.button)
@@ -45,7 +45,7 @@ struct EquipmentArea: View {
                 Toggle(model.isShowingFullRocket ? "Hide Full Rocket (volumetric)" : "Show Full Roket (voulmetric)", isOn: $model.isShowingFullRocket)
                     .onChange(of: model.isShowingFullRocket) { _, isShowing in
                         if isShowing {
-                            // openWindow volumetric
+//                            await openImmersiveSpace(id: model.fullRocketRealityArea)
                         } else {
                             // dismissWindow volumetric
                         }
@@ -57,8 +57,8 @@ struct EquipmentArea: View {
         }
     }
 }
-
-#Preview {
-    EquipmentArea()
-        .environment(ViewModel())
-}
+//
+//#Preview {
+//    EquipmentArea()
+//        .environment(ViewModel())
+//}

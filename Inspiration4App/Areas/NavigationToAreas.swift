@@ -62,6 +62,6 @@ struct NavigationToAreas: View {
     }
 }
 //
-#Preview {
-    NavigationToAreas()
-}
+//#Preview {
+//    NavigationToAreas()
+//}
